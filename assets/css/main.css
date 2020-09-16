@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+iframe{
+
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+
+}
+
+
+
+.separados{
+    border: 10px;
+}
+
+.barra{
+	width: 100%;
+	background-color: black;
+ 	position: fixed;
+	z-index: 100;
+	color: white;
+}
+.barra img{
+    margin-left: 100px;
+}
+
+.banner{
+		background-color: #272833;
+		background-image: url("../../images/pic01.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		text-align: center;
+		z-index: 21;
+}
+
+.banner h2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: whitesmoke;
+	display: inline-block;
+	font-size: 70px;
+	line-height: 1.35;
+	margin-top: 350px;
+	letter-spacing: 1px;
+}
+
+.banner p {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #eee;
+	font-size: 1.5em;
+	margin-bottom: 1.75em;
+	text-transform: uppercase;
+}
+.banner h3{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.banner h4{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: red;
+	font-size: 22px;
+}
+
+
+
+/*Bloques De Info*/
+.bloque{
+	background-color:rgba(24, 27, 31, 0.616) ;
+	color: whitesmoke;
+	text-align: center;
+	border: none;
+	height: 350px;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 10px;
+}
+.bloque:hover{
+	background-color: rgba(24, 27, 31, 0.863);
+}
+
+
+.bloque>h2{
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+
+}
+.bloque>h3{
+	margin-left: 10px;
+	margin-top: 20px;
+	color: red;
+}
+.bloque>ul{
+	text-align: left;
+	margin-left: 100px;
+	font-size: 20px;
+	color: rgb(255, 65, 65);
+}
+
+
+
+
+.videos{
+	background-color: black;
+	margin-bottom: 200px;
+}
+
+
+
+.videoPr{
+	margin-top: 100px;
+	width: 790;
+	height: 446px;
+}
+
+.textVideo{
+	margin-top: 470px;
+	color: rgb(170, 169, 169);
+	font-size: 15px;
+}
+
+
+.soli{
+	width: auto;
+	height: 80px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	background-color:  rgb(254, 0, 8);
+	border: none;
+	border-radius: 10px;
+	color: whitesmoke;
+}
+.soli:hover{
+	background-color:rgb(250, 45, 52);
+}
+
+.soli2{
+	margin-top: 63px;
+}
+
+
+.botonVideo{
+	width: 100%;
+	background-color: rgb(254, 0, 8);
+	border: none;
+	padding: 10px;
+	color: whitesmoke;
+	text-align: left;
+	border: solid 1.2px rgba(24, 27, 31);
+	border-radius: 10px;
+}
+
+.sideAcor{
+	margin-top: 100px;
+	font-size: 17px;
+} 
+
+.acordeon{
+	overflow: scroll;
+	height:370px;
+}
+.acordeon>h2{
+	font-weight: bold;
+}
+
+
+.accordion {
+	background-color: rgb(24,27,31);
+	color: whitesmoke;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 20px;
+	transition: 0.1s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: rgb(42, 47, 54);
+  }
+  
+  .accordion:after {
+	content: '\002B';
+	color: whitesmoke;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+
+  .acordeon>h2{
+	color: whitesmoke;
+	font-size: 20px;
+}
+  
+  .panel {
+	padding: 0 18px;
+	background-color: rgb(24,27,31);
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	color: rgb(201, 200, 200);
+  }
+
+.panel>img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.botonCont{
+	background-color: rgb(254, 0, 8);
+	border: none;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.botonCont:hover{
+	color: whitesmoke;
+}
+
+
+
+
