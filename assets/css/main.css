@@ -7,6 +7,10 @@
 html{
     background-color: black;
 }
+body{
+	background-color: black
+}
+
 iframe{
 
     position:absolute;
@@ -32,6 +36,18 @@ iframe{
 }
 .barra img{
     margin-left: 100px;
+}
+
+.menu-nav{
+	margin-right: 100px;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 22px;
+	width: 50%;
+	
+
 }
 
 .banner{
@@ -72,18 +88,20 @@ iframe{
 
 
 
-
+.general{
+	
+	background: linear-gradient(143deg,#000000, #2E0843,#6C00AF);
+}
 
 .videos{
-	background-color: black;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 
 .videoPr{
 	margin-top: 100px;
-	width: 790;
-	height: 350px;
+	width: auto;
+	height: 300px;
 	border: solid 2px white;
 }
 
@@ -127,160 +145,161 @@ iframe{
 	border-radius: 10px;
 }
 
-.sideAcor{
-	margin-top: 100px;
-	font-size: 17px;
-} 
+/*Seccion de paquetes*/
 
-.acordeon{
-	overflow: scroll;
-	height:370px;
-}
-.acordeon>h2{
-	font-weight: bold;
+.servicioSec{
+	margin-bottom: 100px;
 }
 
-
-.accordion {
-	background-color: rgb(24,27,31);
-	color: whitesmoke;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 20px;
-	transition: 0.1s;
-  }
-  
-  .active, .accordion:hover {
-	background-color: rgb(42, 47, 54);
-  }
-  
-  .accordion:after {
-	content: '\002B';
-	color: whitesmoke;
-	font-weight: bold;
-	float: right;
-	margin-left: 5px;
-  }
-  
-  .active:after {
-	content: "\2212";
-  }
-
-  .acordeon>h2{
-	color: whitesmoke;
-	font-size: 20px;
+.mainTitle{
+	text-align: center;
 }
-  
-  .panel {
-	padding: 0 18px;
-	background-color: rgb(24,27,31);
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-	color: rgb(201, 200, 200);
-  }
-
-.panel>img{
-	width: 100%;
-	margin-top: 10px;
+.mainTitle h2{
+	font-size: 80px;
+	color: white;
 }
 
-.botonCont{
-	background-color: rgb(254, 0, 8);
-	border: none;
-	border-radius: 10px;
-	width: 200px;
-	height: 40px;
-	margin-top: 10px;
-	font-weight: bold;
-}
-.botonCont:hover{
-	color: whitesmoke;
-}
-
-.serviceSec{
-	margin-top: 100px;
-}
-.serviceSec h2{
-	color: whitesmoke;
-	font-weight: bold;
-}
-
-/* css de los banners de servicios*/
-.bannerServ{
-	padding: 10px;
-	height: 280px;
-	width: 280px;
-}
-.servButton{
-	background-color: rgb(254, 0, 8);
-	border: none;
-	border-radius: 10px;
-	width: 150px;
-	height: 40px;
-	margin-top: 10px;
-	font-weight: bold;
-	color: whitesmoke;
-}
-.xTiBotton{
-	margin-top: 30px;
-	margin-left: 50px;
+.cajaProducto{
+	margin-top: 50px;
 	
 }
-.xTiBotton a{
-	color: whitesmoke;
-	margin-top: 15px;
-	font-size: 20px;
-	font-weight: bold;
+
+.producto{
+	width: auto;
+	height: 250px;
+	background: linear-gradient(359deg, #A78122,#F7DD68);
+	border-radius: 20px;
+	padding-right: 10px;
 }
-.promo>h3{
-	margin-left: 10px;
-	margin-top: 20px;
-	color: red;
+.textoProducto{
+	margin-top: 30px;
 }
-.promo>ul{
+
+.tituloProducto2{
+	width: 470px;
+	text-align: center;
+	
+}
+
+.producto h2{
+
+	text-align: center;
+	font: normal normal bold 50px/24px Fira Sans;
+	letter-spacing: 3.5px;
+	color: #47056F;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.producto h3{
+	text-align: center;
+	font: normal normal normal 26px/40px Fira Sans;
+	letter-spacing: 0px;
+	color: #47056F;
+	opacity: 1;
+}
+.producto p{
 	text-align: left;
-	margin-left: 100px;
-	font-size: 20px;
-	color: rgb(173, 173, 173);
+	font: normal normal normal 26px/40px Fira Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-bottom: -20px;
+}
+.producto h4{
+	text-align: center;
+	font: normal normal bold 50px/88px Fira Sans;
+	letter-spacing: -0.83px;
+	color: #FFFFFF;
+	opacity: 1;
 }
 
-/*Testimonios*/
-.testSec{
-	margin-top: 100px;
-	align-content: center;
-	margin-left: 100px;
-}
-.tituTestimon{
-	margin-top: 100px;
-	margin-bottom: -80px;
-	color: whitesmoke;
+.producto button{
 	font-weight: bold;
-	text-align: center;
-}
-
-.testimonio{
-	height: 400px;
-	width: 70%;
-	margin-top: 50px;
-}
-
-.textTesti{
-	margin-top: 50px;
-}
-.textTesti h3{
-	color: whitesmoke;
-	text-align: center;
-}
-.textTesti p{
-	margin-top: 20px;
-	color: rgb(187, 187, 187);
 	font-size: 20px;
+	width: 196px;
+	height: 55px;	
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 20px #000000B5;
+	opacity: 1;
+	border-radius: 10px;	
 }
+.btnProducto:hover{
+	transform: scale(1.1);
+}
+
+
+/*seccion de formulario*/
+.titulo{
+    color: #272343;
+    text-align: center;
+    font-size: 20px;
+}
+
+.formContact{
+    width: 40%;
+    margin: auto;
+	margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contInput{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+
+}
+.contInput>label{
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.contInput>input{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(70, 63, 105);
+    border-radius: 10px;
+    color: white;
+}
+.contInput>input:focus{
+    
+    box-shadow: 0 0 50px rgb(141, 140, 140);
+}
+
+.btnEnviar{
+	margin-top: 40px;
+	margin-bottom: 100px;
+    align-self: center;
+    border:none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(103, 103, 218);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(70, 63, 105) ;
+}
+.btnEnviar:hover{
+    transform: scale(1.1);
+}
+
+.mensajeAlert{
+    color: red;
+    margin-top: 5px;
+}
+.inputTyC{
+    flex-direction: row;
+    align-items: center;
+}
+.inputTyC > label {
+    order: 2;
+    margin-left: 50px;
+}
+.bgcAlert{
+    background-color: rgb(240, 87, 87) !important;
+}
+
+
 
 
 
